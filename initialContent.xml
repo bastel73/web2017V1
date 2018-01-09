@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="initial.xsl" ?>
+
+<initialData>
+    <paragraph>
+        <line>Fussballschuhe im Schrank wiedergefunden?</line>
+        <line>Du hast Spaß, dich in ein Team einzubringen?</line>
+        <line>Du hast Spaß an der Bewegung?</line>
+        <emphasize>...dann bist Du hier richtig</emphasize>
+        <picture>img/team.jpg</picture>
+    </paragraph>
+</initialData>

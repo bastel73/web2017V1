@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="official.xsl" ?>
+<tournaments>
+    <currentSeason>Hallensaison 2017/18</currentSeason>
+
+        <event>
+
+            <name>Hallenturnier</name>
+            <date>2018-02-23</date>
+            <location>Halle GVO</location>
+            <kickOff>13:00</kickOff>
+            <meetingTime>12:00</meetingTime>
+            <meetingPoint>Parkplatz SVO</meetingPoint>
+            <google></google>
+        </event>
+
+        <event>
+
+            <name>Hallenturnier</name>
+            <date>2018-03-03</date>
+            <location>Feststraße</location>
+            <kickOff>10:00</kickOff>
+            <meetingTime>09:00</meetingTime>
+            <meetingPoint>Parkplatz SVO</meetingPoint>
+            <google></google>
+        </event>
+
+        <event>
+            <name>Turnier gegen Post SV</name>
+            <date>2018-03-13</date>
+            <location>Soccerland</location>
+            <kickOff>13:00</kickOff>
+            <meetingTime>12:00</meetingTime>
+            <meetingPoint>Parkplatz SVO</meetingPoint>
+            <google></google>
+        </event>
+
+        <event>
+            <typeOfMatch>Hallenturnier</typeOfMatch>
+            <name>Vorwärts Cup 2018</name>
+            <date>2018-03-23</date>
+            <location>Große Halle SVO</location>
+            <kickOff>13:00</kickOff>
+            <meetingTime>12:00</meetingTime>
+            <meetingPoint>Parkplatz SVO</meetingPoint>
+            <google></google>
+        </event>
+
+</tournaments>

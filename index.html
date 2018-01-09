@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" description="Sebastian Wiele">
+
+    <meta name="viewport" content="width=device-width initial-scale=1.0" >
+
+    <title>D2 Junioren SV Ofenerdiek</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <script src="js/script.js"></script>
+
+</head>
+
+<body onload="showInitialContent(), remindMe()">
+
+<div class="mainPage">
+    <a class="menu-toggle" onclick="toggleMenu()"><i class="fa fa-bars fa-4x" aria-hidden="true" ></i></a>
+
+    <div id="logo">
+
+    </div>
+    <header class="mainHeader">
+        <div class="text-box">
+            <h1 class="heading-primary">
+            <span class="heading-primary-main">SVO D2 JUNIOREN</span>
+            <span class="heading-primary-sub">Jahrgang 2006</span>
+            <span class="heading-primary-sub-sub"> ...hier wird Fußball gesprochen</span>
+        </h1>
+        </div>
+
+
+    </header>
+
+    <nav>
+        <div class="navWrapper">
+            <div class="navItem" onclick="closeMenu()"><a href="index.html">Home</a></div>
+            <div class="navItem" onclick="closeMenu(), articleData('workingArea','trainingData.xml', 'training.xsl')"><a href="#">Training</a></div>
+            <div class="navItem" onclick="closeMenu(), articleData('workingArea','officialGames.xml', 'official.xsl')"><a href="#">Punktspiele</a></div>
+            <div class="navItem" onclick="closeMenu(), articleData('workingArea','tournaments.xml', 'tournaments.xsl')"><a href="#">Turniere</a></div>
+            <div class="navItem" onclick="closeMenu(), articleData('workingArea','pictures.xml', 'pictures.xsl')"><a href="#">Fotos</a></div>
+            <div class="navItem" onclick="closeMenu()"><a href="contact.html">Kontakt</a></div>
+        </div>
+    </nav>
+    <article>
+        <div class="workingArea"></div>
+        <div class="modal"></div>
+    </article>
+
+    <div class="sideContent">
+        <aside>
+            <p>Javasript aktivieren!!!</p>
+        </aside>
+    </div>
+
+    <footer>
+        <a href="impressum.html">Impressum</a>
+    </footer>
+</div>
+</body>
+</html>

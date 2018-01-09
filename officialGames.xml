@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="official.xsl" ?>
+<season>
+    <nameOfSeason>Feldrunde 2018</nameOfSeason>
+    <game>
+        <date>23.03.2018</date>
+        <opponent>Post SV</opponent>
+        <location>Alexanderstraße</location>
+        <kickOff>17:00</kickOff>
+        <meetingTime>16:00</meetingTime>
+    </game>
+    <game>
+        <date>14.04.2018</date>
+        <opponent>Polizei SV</opponent>
+        <location>Wechloy</location>
+        <kickOff>10:00</kickOff>
+        <meetingTime>09:00</meetingTime>
+    </game>
+    <game>
+        <date>23.04.2018</date>
+        <opponent>GVO</opponent>
+        <location>Gerhard-Stalling-Str.</location>
+        <kickOff>17:00</kickOff>
+        <meetingTime>15:45</meetingTime>
+    </game>
+    <game>
+        <date>03.05.2018</date>
+        <opponent>Eintracht</opponent>
+        <location>Hellmskamp</location>
+        <kickOff>11:00</kickOff>
+        <meetingTime>09:45</meetingTime>
+    </game>
+</season>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="pictures.xsl" ?>
+<pictures>
+
+        <picItem>img/gallery/pic-0-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-1-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-2-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-3-size-1.jpg</picItem>
+
+        <picItem>img/gallery/pic-4-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-5-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-6-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-7-size-1.jpg</picItem>
+
+        <picItem>img/gallery/pic-8-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-9-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-10-size-1.jpg</picItem>
+        <picItem>img/gallery/pic-0-size-1.jpg</picItem>
+
+        <picItem>img/gallery/pic-4-size-1.jpg</picItem>
+
+</pictures>
