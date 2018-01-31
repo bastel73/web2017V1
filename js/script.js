@@ -2,15 +2,15 @@
 let contentBox;
 let xml;
 let xsl;
-let path;
 let clickTarget;
 
-
+/*The following function is called in order to show the initial content*/
 function showInitialContent() {
 
     articleData('workingArea','initialContent.xml', 'initial.xsl');
 }
-
+/*The content of the <article> section is processed with this function. All the content is generated via an xslt-processor,
+* since it can be changed via an xml file.*/
 function articleData(viewElement, source, styleSource) {
     let xsltProcessor = new XSLTProcessor();
     let resultDocument;
@@ -24,6 +24,7 @@ function articleData(viewElement, source, styleSource) {
         contentBox.removeChild(contentBox.firstChild);
     }
     if(viewElement==='modal') {
+        //not very elegant, but does the trick; inline-styling
         contentBox.style.display = 'flex';
         contentBox.style.flexDirection='column';
         contentBox.style.justifyContent='center';
@@ -53,14 +54,14 @@ function articleData(viewElement, source, styleSource) {
 
 }
 
-
+/*function to close a modal window*/
 function clickOutside(e) {
     let modal=document.getElementsByClassName('modal')[0];
     if (e.target === modal) {
         modal.style.display = 'none';
     }
 }
-
+/*function returns an xml or xsl file via XHR*/
 function getXmlData(fileName) {
     let returnData;
     let xhttp = new XMLHttpRequest();
@@ -74,7 +75,7 @@ function getXmlData(fileName) {
     xhttp.send();
     return returnData;
 }
-
+/*the <aside> section is filled with content via the following function*/
 function remindMe() {
 
     let eventMap;
@@ -86,7 +87,7 @@ function remindMe() {
     processRemindMeLists(eventMap);
 
 }
-
+/*In this function the work with xpath is demonstrated.*/
 function getEventMapFromXMLDoc(xml, path) {
     let nameOfSeason;
     let currentSeason;
@@ -129,6 +130,7 @@ function getEventMapFromXMLDoc(xml, path) {
     eventMap.set('nameOfSeason', nameOfSeason);
     return eventMap;
 }
+/*With this function the upcoming events and the season events will be filtered and displayed accordingly.*/
 
 function processRemindMeLists(eventMap) {
     let today = new Date();
@@ -169,7 +171,7 @@ function processRemindMeLists(eventMap) {
         }
     }
 }
-
+/*Helper function in order to sort the events by date.*/
 function compare(value1, value2) {
     switch (value1 < value2) {
         case true:
@@ -183,6 +185,8 @@ function compare(value1, value2) {
 
     }
 }
+/*On a modal window displaying either the official games or the tournaments a button is added in order to get the
+* lineup for the next event to show up in a modal window.*/
 function addNavSection(){
 
     let navElement=document.createElement('div');
@@ -193,9 +197,8 @@ function addNavSection(){
     navElement.addEventListener('click', showModal, false);
     return navElement;
 }
-
+/*The basic html-content for the asisde-section is processed in this function.*/
 function processSideList(htmlFragment) {
-
 
     htmlFragment.innerHTML =
         "<h1>Die nächsten Spiele</h1>" +
@@ -206,7 +209,7 @@ function processSideList(htmlFragment) {
         "<p id='thisSeason'>Diese Saison</p>" +
         "<ul id='thisSeasonList'></ul>";
 }
-
+/*This function toggles the side menu on and off and shifts the main page area.*/
 function toggleMenu() {
     contentBox = document.getElementsByClassName('mainPage')[0];
     if (contentBox.getAttribute('class') === 'mainPage') {
@@ -217,19 +220,19 @@ function toggleMenu() {
         contentBox.setAttribute('class', 'mainPage');
     console.log(contentBox.getAttribute('class'));
 }
-
+/*The side menu is shifted back and the main page area is back at the origin.*/
 function closeMenu(){
     contentBox=document.getElementsByClassName('mainPage')[0];
     if(contentBox.getAttribute('class')==='mainPage navWrapper-open')
         contentBox.setAttribute('class', 'mainPage');
 }
-
+/*A modal window is closed.*/
 function closeModal(){
     contentBox=document.getElementsByClassName('modal')[clickTarget];
     contentBox.style.display='none';
 
 }
-
+/*The modal window is shown and styled inline*/
 function showModal(ev){
     clickTarget=ev.target.id-1;
 
