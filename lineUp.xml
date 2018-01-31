@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lineUp.xsl" ?>
+
+<lineup>
+    <game>Punktspiel Post SV</game>
+    <player>
+        <role>Torwart</role>
+        <backNumber>1</backNumber>
+        <name>Ronald</name>
+    </player>
+    <player>
+        <role>Fixo</role>
+        <backNumber>2</backNumber>
+        <name>Poller</name>
+    </player>
+    <player>
+        <role>Ala</role>
+        <backNumber>4</backNumber>
+        <name>Renner</name>
+    </player>
+    <player>
+        <role>Ala</role>
+        <backNumber>6</backNumber>
+        <name>Rückrenner</name>
+    </player>
+    <player>
+        <role>Pivot</role>
+        <backNumber>7</backNumber>
+        <name>Flitzer</name>
+    </player>
+</lineup>

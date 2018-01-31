@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teamlist>
+
+  <player>
+    <lastName>Hartschuss</lastName>
+    <firstName>Falk</firstName>
+    <yob>2006</yob>
+    <birthday>01.06.2006</birthday>
+    <preferedPosition>defender</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Holzbein</lastName>
+    <firstName>Otto</firstName>
+    <yob>2007</yob>
+    <birthday>23.03.2007</birthday>
+    <preferedPosition>defender</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Sandsack</lastName>
+    <firstName>Frank</firstName>
+    <yob>2006</yob>
+    <birthday>11.11.2006</birthday>
+    <preferedPosition>defender</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Taklowa</lastName>
+    <firstName>Jana</firstName>
+    <yob>2006</yob>
+    <birthday>07.05.2006</birthday>
+    <preferedPosition>defender</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Grosshand</lastName>
+    <firstName>Gunter</firstName>
+    <yob>2006</yob>
+    <birthday>11.02.2006</birthday>
+    <preferedPosition>goalkeeper</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Renner</lastName>
+    <firstName>Rolf</firstName>
+    <yob>2006</yob>
+    <birthday>07.04.2006</birthday>
+    <preferedPosition>forward</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Schlauberger</lastName>
+    <firstName>Saskia</firstName>
+    <yob>2006</yob>
+    <birthday>21.08.2006</birthday>
+    <preferedPosition>midfielder</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Winkel</lastName>
+    <firstName>Wolfram</firstName>
+    <yob>2007</yob>
+    <birthday>08.01.2007</birthday>
+    <preferedPosition>midfielder</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Ratlos</lastName>
+    <firstName>Rudi</firstName>
+    <yob>2006</yob>
+    <birthday>31.07.2006</birthday>
+    <preferedPosition>midfielder</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Wiesel</lastName>
+    <firstName>Volker</firstName>
+    <yob>2006</yob>
+    <birthday>23.03.2006</birthday>
+    <preferedPosition>forward</preferedPosition>
+  </player>
+
+  <player>
+    <lastName>Feuerstein</lastName>
+    <firstName>Fred</firstName>
+    <yob>2006</yob>
+    <birthday>23.03.2006</birthday>
+    <preferedPosition>forward</preferedPosition>
+  </player>
+
+    <player>
+        <lastName>Wiele</lastName>
+        <firstName>Nicolas</firstName>
+        <yob>2006</yob>
+        <birthday>14.12.2006</birthday>
+        <preferedPosition>midfield</preferedPosition>
+    </player>
+
+
+</teamlist>
